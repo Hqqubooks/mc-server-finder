@@ -18,6 +18,14 @@ A high-performance async Rust tool that scans for Minecraft servers across the i
 - **Player Status**: Distinguishes between active servers (with players) and empty servers
 - **GeoLocation**: Shows server country
 
+---
+
+<div align="center">
+<img src="images/discord-example.png" alt="Discord Example"/>
+<br>
+🔔 Discord Integration
+</div>
+
 ## Configuration
 
 Edit `config.toml` to customize:
@@ -45,4 +53,7 @@ The `assets/ips.txt` file should contain CIDR notation IP ranges, one per line:
 ```bash
 cargo run --release
 ```
+
+> [!WARNING]
+> This tool is created for educational purposes and legitimate network research only. Do not abuse this software for malicious purposes. Be responsible and ethical in your usage.
 
