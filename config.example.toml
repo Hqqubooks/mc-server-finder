@@ -1,0 +1,35 @@
+[scanning]
+port = 25565
+num_tasks = 8
+max_range_size = 2048
+consecutive_threshold = 100
+chunk_size = 100
+
+[timeouts]
+port_check_ms = 2000
+connection_ms = 3000
+protocol_response_ms = 5000
+
+[networking]
+base_source_port = 20000
+port_range_per_task = 1000
+
+[minecraft]
+protocol_version = 760  # MC 1.20.4
+
+[test_servers]
+test_ips = ["127.0.0.1", "8.8.8.8"]
+
+[stats]
+stats_interval_seconds = 30
+
+[discord]
+webhook_121_active = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"  # For Minecraft 1.21.x with players
+webhook_120_active = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"  # For Minecraft 1.20.x with players
+webhook_119_active = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"  # For Minecraft 1.19.x with players
+webhook_other_active = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"  # For other versions with players
+
+webhook_121_empty = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"  # For Minecraft 1.21.x without players
+webhook_120_empty = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"  # For Minecraft 1.20.x without players
+webhook_119_empty = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"  # For Minecraft 1.19.x without players
+webhook_other_empty = "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"  # For other versions without players

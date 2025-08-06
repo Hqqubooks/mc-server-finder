@@ -1,0 +1,14 @@
+/target
+Cargo.lock
+
+*.log
+.idea/
+
+config.toml
+
+assets/ips.txt
+
+assets/*
+!assets/.gitkeep
+output/*
+!output/.gitkeep
