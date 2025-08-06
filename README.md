@@ -33,12 +33,6 @@ Edit `config.toml` to customize:
 - Discord webhook URLs for different server categories
 - Target IP subnets in `assets/ips.txt`
 
-### Setup
-
-1. Copy `config.example.toml` to `config.toml`
-2. Replace Discord webhook placeholders with your actual webhook URLs
-3. Configure your target IP ranges in `assets/ips.txt`
-
 ### IP Range Format
 
 The `assets/ips.txt` file should contain CIDR notation IP ranges, one per line:
